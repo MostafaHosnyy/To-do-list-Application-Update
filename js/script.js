@@ -29,7 +29,7 @@ function newTask() {
               <td>`+ i + `</td>
               <td>`+ taskContainer[i].name + `</td>
               <td>`+ taskContainer[i].priority + `</td>
-             <td><button class="btn btn-warning" onclick="updateTask(`+i+`)">Update</button></td>
+             <td><button class="btn btn-warning" onclick="updateTask(`+i+`)">Edit</button></td>
               <td><button class="btn btn-danger" onclick="deleteTask(`+i+`)">Delete</button></td>
         </tr>`
         }
